@@ -16,6 +16,6 @@ enum Result{
 };
 
 void addBook(vector<book> &books);
-void viewBooks(vector<book> &books);
+void viewBooks(const vector<book> &books);
 Result removeBook(vector<book> &books);
 char continuum(bool &continu);
